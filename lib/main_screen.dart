@@ -3,6 +3,7 @@ import 'package:wisata_bandung/model/tourism_place.dart';
 import 'detail_screen.dart';
 
 class MainScreen extends StatelessWidget {
+  var abc = "def";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
