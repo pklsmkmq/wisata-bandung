@@ -6,7 +6,7 @@ class MainScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Wisata Bandung Di Bumi")),
+      appBar: AppBar(title: Text("Wisata Bandung")),
       body: ListView.builder(
           itemCount: tourismPlaceList.length,
           itemBuilder: (context, index) {
